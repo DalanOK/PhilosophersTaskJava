@@ -2,7 +2,7 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
-        int philosofersCount = 20;
+        int philosofersCount = 5;
         Fork[] forks = new Fork[philosofersCount];
         Philosopher[] philosophers = new Philosopher[philosofersCount];
 

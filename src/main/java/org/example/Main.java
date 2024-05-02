@@ -14,11 +14,7 @@ public class Main {
             Fork leftFork = forks[i];
             Fork rightFork = forks[(i + 1) % philosofersCount];
             philosophers[i] = new Philosopher(leftFork, rightFork, i);
+            philosophers[i].start();
         }
-
-        for (Philosopher philosopher : philosophers) {
-            philosopher.start();
-        }
-
     }
 }
